@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.calculadora {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  left: 500px;
+  top: 100px;
+  width: 500px;
+  height: 450px;
+  border: 1px solid #04d361(48, 113, 111);
+  border-radius: 8px;
+  background-color: #19191c;
+}
+
+.taxa-de-juros-nominal {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: #04d361;
+  left: 100px;
+  top: 20px;
+}
+
+#jurosNominal {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  top: 40px;
+  left: 100px;
+  border-radius: 5px;
+  border: 1px solid rgb(48, 113, 48);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.taxa-de-inflacao {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  top: 60px;
+  left: 125px;
+  color: #04d361;
+}
+
+#inflacao {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  top: 80px;
+  border-radius: 5px;
+  border: 1px solid rgb(48, 113, 48);
+  left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#resultado {
+  position: relative;
+  top: 150px;
+  left: 220px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #04d361;
+}
+
+.taxa-de-juros-real {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  top: 120px;
+  left: 110px;
+  color: #04d361;
+}
+
+.botao {
+  position: relative;
+  width: 250px;
+  height: 50px;
+  top: 100px;
+  left: 125px;
+  color: white;
+  background-color: #04d361;
+  border-radius: 10px;
+  border: 1px solid rgb(48, 113, 48);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
